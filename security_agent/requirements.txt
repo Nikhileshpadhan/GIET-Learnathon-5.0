@@ -1,0 +1,7 @@
+# Core ML & Numerical Libraries
+scikit-learn>=1.3.0
+numpy>=1.24.0
+
+# Optional Hugging Face NLP Classification (Falls back gracefully if omitted on low-spec hardware)
+transformers>=4.30.0
+torch>=2.0.0
