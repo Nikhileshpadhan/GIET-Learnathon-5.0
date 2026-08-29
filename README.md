@@ -2,6 +2,7 @@
 
 A secure, high-performance web application designed for managing hostel grievances, enabling students to report issues and wardens to track and resolve them efficiently.
 
+**🌟 What makes this project unique:** It features a custom-built, out-of-band **Machine Learning Security Agent** that silently monitors traffic in real-time, detecting and neutralizing zero-day attacks without slowing down the main web server.
 ## Project Overview
 
 This project was built with modern web technologies, focusing on speed, reliability, and robust security. It provides distinct interfaces and permission levels for students and wardens, ensuring a streamlined process for facility maintenance and issue resolution.
@@ -56,6 +57,7 @@ Learn more about the architecture and how to run live demonstrations in [`submis
     ```bash
     npm install
     ```
+    *(Note: If you see a warning like `npm warn allow-scripts 1 package has install scripts not yet covered by allowScripts`, you can safely ignore it. It is just a strict security setting in newer npm versions.)*
 
 3.  **Install ML Agent Dependencies (Optional but recommended):**
     ```bash
