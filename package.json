@@ -44,9 +44,11 @@
 	},
 	"dependencies": {
 		"@hono/node-server": "^2.1.1",
-		"better-sqlite3": "^13.0.3",
 		"hono": "^4.13.5",
 		"node-gyp": "^12.4.0",
 		"rebuild": "^0.1.2"
+	},
+	"optionalDependencies": {
+		"better-sqlite3": "^13.0.3"
 	}
 }
